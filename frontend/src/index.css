@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.react-flow__handle {
+  width: 8px;
+  height: 8px;
+  background-color: #555;
+  border-radius: 50%;
+}
+
+.react-flow__node {
+  border-radius: 8px;
+  padding: 12px;
+  background: white;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+}
+
+.react-flow__edge-path {
+  stroke: #555;
+  stroke-width: 2;
+}
+
+.react-flow__controls {
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.react-flow__controls-button {
+  background: white;
+  border: none;
+  border-bottom: 1px solid #eee;
+  padding: 8px;
+  color: #555;
+}
+
+.react-flow__minimap {
+  border-radius: 8px;
+  overflow: hidden;
+}
