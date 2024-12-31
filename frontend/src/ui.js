@@ -9,12 +9,22 @@ import { InputNode } from "./nodes/InputNode";
 import { LLMNode } from "./nodes/LLMNode";
 import { OutputNode } from "./nodes/OutputNode";
 import { TextNode } from "./nodes/TextNode";
+import { FilterNode } from "./nodes/FilterNode";
+import { TransformNode } from "./nodes/TransformNode";
+import { ValidationNode } from "./nodes/ValidationNode";
+import { APINode } from "./nodes/APINode";
+import { CodeNode } from "./nodes/CodeNode";
 
 const nodeTypes = {
   customInput: InputNode,
   llm: LLMNode,
   customOutput: OutputNode,
   text: TextNode,
+  filter: FilterNode,
+  transform: TransformNode,
+  validation: ValidationNode,
+  api: APINode,
+  code: CodeNode,
 };
 
 const selector = (state) => ({
